@@ -48,3 +48,5 @@ It covers:
 ---
 
 # ERD Design
+- link : https://lucid.app/lucidchart/5d42fa9c-fddd-4e14-a5a3-563b76cb4458/edit?viewport_loc=121%2C113%2C2217%2C1052%2C0_0&invitationId=inv_9d1d5ff1-34fd-4b91-b03c-e5c0a75b0fe9
+
