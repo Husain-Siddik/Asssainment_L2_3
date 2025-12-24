@@ -1,4 +1,4 @@
--- first  
+
 SELECT
     bookings.booking_id,
     users.name AS customer_name,
@@ -11,7 +11,8 @@ FROM
 JOIN users ON bookings.user_id = users.user_id
 JOIN vehicles ON bookings.vehicle_id = vehicles.vehicle_id;
 
--- second 
+
+
 SELECT  *
 FROM Vehicles v
 WHERE NOT EXISTS (
@@ -21,7 +22,7 @@ WHERE NOT EXISTS (
 );
 
 
--- 3rd 
+
 
 select  *
 from
@@ -31,7 +32,9 @@ where
 and type  = 'car'
 
 
---4th
+
+
+
 
 SELECT
   v.name, COUNT(*) AS total_bookings
